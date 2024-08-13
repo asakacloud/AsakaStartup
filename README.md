@@ -5,6 +5,9 @@
 - Script này tập trung vào việc tối đa hóa việc sử dụng CPU và giảm thiểu việc sử dụng RAM nhằm nâng cao hiệu quả tổng thể
 - Script này phù hợp để sử dụng trên máy chủ Minecraft nhằm cải thiện hiệu suất. Bạn cũng có thể sử dụng các arguments ở dưới, áp dụng trên Minecraft Client (hoặc là các launcher khác như TLauncher / Legacy / Pojav, chỉ cho phiên bản 1.20 trở lên) để tăng FPS. Lưu ý rằng việc sử dụng script này trong thời gian dài có thể gây ra sự cố hoặc làm cho trò chơi bị treo.
 
+## Cách để chạy
+> **Ùmmm, chắc là bạn cũng phải biết cách áp dụng rồi đúng không nhỉ? Nếu như bạn không biết thì tốt nhất bạn không nên thử áp dụng startup script ở dưới đây.**
+
 ## Câu Lệnh Khởi Động
 
 >  ```java -Xms128M -Xmx(Max RAM Server của bạn)M -XX:MaxRAMPercentage=95 -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:+EnableDynamicAgentLoading -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=200 -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=15 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1MixedGCLiveThresholdPercent=85 -XX:G1RSetUpdatingPauseTimePercent=1 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -XX:MinHeapFreeRatio=10 -XX:MaxHeapFreeRatio=20 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar nogui```
