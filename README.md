@@ -1,5 +1,5 @@
 # AsakaStartup
- > **AsakaStartup** là một script khởi động Java được viết lại dựa trên [**Aikar's Flags**](https://docs.papermc.io/paper/aikars-flags), thiết kế để tối ưu hóa hiệu suất cho các máy chủ.
+ > **AsakaStartup** là một script khởi động Java được viết lại dựa trên [**Aikar's Flags**](https://docs.papermc.io/paper/aikars-flags) bởi [**Asaka Cloud**](https://asakacloud.vn), thiết kế để tối ưu hóa hiệu suất cho các máy chủ.
  
 > **Các mục tiêu mà script này tập trung vào:**
 - Script này tập trung vào việc tối đa hóa việc sử dụng CPU và giảm thiểu việc sử dụng RAM nhằm nâng cao hiệu quả tổng thể
