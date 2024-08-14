@@ -42,7 +42,7 @@
 ## Một vài lưu ý:
 > Quyền lợi: Chúng tôi **có quyền từ chối chịu bất kì trách nhiệm** nếu có các lỗi liên quan đến server của bạn sau khi sử dụng đoạn script này. 
 
->Tuy nhiên, đoạn script này đã được viết bởi [**Asaka Cloud**](https://asakacloud.vn) và hiện tại đang được áp dụng cho các khách hàng sử dụng Hosting tại [**Asaka Cloud**](https://asakacloud.vn) và được tối ưu rất tốt, nên bạn có thể yên tâm chạy đoạn script này trên Host / VPS của bạn.
+>Tuy nhiên, đoạn script này hiện tại đang được áp dụng cho các khách hàng sử dụng Hosting tại [**Asaka Cloud**](https://asakacloud.vn) và được tối ưu rất tốt, không gây vấn đề hiệu năng gì, nên bạn có thể yên tâm chạy đoạn script này trên Host / VPS của bạn.
 
 ## Sửa lỗi và cập nhật:
 > Sẽ được cập nhật và sửa đổi thêm trong [**Server Discord**](https://discord.gg/asakacloud) của chúng tôi.
