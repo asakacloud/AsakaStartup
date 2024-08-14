@@ -8,9 +8,9 @@
 ## Cách để chạy
 > **Linux: Dùng trực tiếp lệnh khởi động ở bên dưới**
 
-> **Windows: [Tải file](https://raw.githubusercontent.com/asakacloud/AsakaStartup/main/run.bat) chạy server về máy và chạy trên máy của bạn**
+> **Windows: [Tải file](https://raw.githubusercontent.com/asakacloud/AsakaStartup/main/run.bat) chạy server về máy và chạy trên máy của bạn ( Nhớ chỉnh số ram bạn muốn chạy ở phần -Xmx8192M**
 
-> **Hosting ( Các dịch vụ host như là Asaka Cloud, DPT, MCViet, v.v...): Bạn có thể liên hệ với đội ngũ hỗ trợ của host để nhờ chỉnh startup script trên host của bạn**
+> **Hosting ( Các dịch vụ host như là Asaka Cloud, DPT, MCViet, v.v ): Bạn có thể liên hệ với đội ngũ hỗ trợ của host để nhờ chỉnh startup script trên host của bạn**
 
 ## Câu Lệnh Khởi Động
 
