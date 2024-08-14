@@ -6,7 +6,11 @@
 - Script này phù hợp để sử dụng trên máy chủ Minecraft nhằm cải thiện hiệu suất. Bạn cũng có thể sử dụng các arguments ở dưới, áp dụng trên Minecraft Client (hoặc là các launcher khác như TLauncher / Legacy / Pojav, chỉ cho phiên bản 1.20 trở lên) để tăng FPS. Lưu ý rằng việc sử dụng script này trong thời gian dài có thể gây ra sự cố hoặc làm cho trò chơi bị treo.
 
 ## Cách để chạy
-> **Ùmmm, chắc là bạn cũng phải biết cách áp dụng rồi đúng không nhỉ? Nếu như bạn không biết thì tốt nhất bạn không nên thử áp dụng startup script ở dưới đây.**
+> **Linux: Dùng trực tiếp lệnh khởi động ở bên dưới**
+
+> **Windows: [Tải file](https://raw.githubusercontent.com/asakacloud/AsakaStartup/main/run.bat) chạy server về máy và chạy trên máy của bạn**
+
+> **Hosting ( Các dịch vụ host như là Asaka Cloud, DPT, MCViet, v.v...): Bạn có thể liên hệ với đội ngũ hỗ trợ của host để nhờ chỉnh startup script trên host của bạn**
 
 ## Câu Lệnh Khởi Động
 
