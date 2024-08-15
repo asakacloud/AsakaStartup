@@ -17,11 +17,11 @@
 >  ```java -Xms128M -Xmx(Max RAM Server của bạn)M -XX:MaxRAMPercentage=95 -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:+EnableDynamicAgentLoading -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=200 -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=15 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1MixedGCLiveThresholdPercent=85 -XX:G1RSetUpdatingPauseTimePercent=1 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -XX:MinHeapFreeRatio=10 -XX:MaxHeapFreeRatio=20 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar nogui```
 
 ## Giải Thích Các Arguments trong đoạn script:
-- **XX:MaxRAMPercentage=95**: Phân bổ tối đa 95% RAM của hệ thống cho JVM. Điều này giúp tận dụng gần như toàn bộ RAM có sẵn.
-- **XX:+UseG1GC**: Kích hoạt garbage collector G1, thích hợp cho các ứng dụng có heap lớn và yêu cầu độ trễ thấp.
-- **XX:+ParallelRefProcEnabled**: Kích hoạt xử lý song song các đối tượng tham chiếu, cải thiện hiệu suất garbage collection.
-- **XX:+EnableDynamicAgentLoading**: Cho phép tải động các agent Java, hữu ích cho việc phát triển và kiểm tra.
-- **XX:+UnlockExperimentalVMOptions**: Kích hoạt các tùy chọn VM thử nghiệm, cho phép sử dụng các tính năng mới chưa chính thức.
+- **XX:MaxRAMPercentage=95**: Chỉ sử dụng 95% RAM mà bạn cấp cho server.
+- **XX:+UseG1GC**: Thêm tính năng gom rác, dùng để giảm dung lượng ram sau khi người chơi rời server. 
+- **XX:+ParallelRefProcEnabled**: Cải thiện hiệu suất của G.GC
+- **XX:+EnableDynamicAgentLoading**: Cho phép tải động các agent Java, có cho việc phát triển và kiểm tra.
+- **XX:+UnlockExperimentalVMOptions**: Kích hoạt các tùy chọn VM thử nghiệm, cho phép sử dụng các tính năng mới.
 - **XX:MaxGCPauseMillis=200**: Đặt thời gian dừng tối đa cho garbage collection là 200 ms, giúp giảm độ trễ do GC.
 - **XX:+DisableExplicitGC**: Vô hiệu hóa các cuộc gọi garbage collection explicit (các cuộc gọi GC do ứng dụng yêu cầu).
 - **XX:+AlwaysPreTouch**: Đảm bảo rằng tất cả bộ nhớ được chạm trong quá trình khởi động JVM, giúp cải thiện hiệu suất.
